@@ -150,6 +150,20 @@ alias restart="systemctl restart"
 alias suspend="systemctl suspend"
 alias rnet="systemctl restart networking.service"
 
+# npm
+alias ni="npm install"
+alias nid="npm install --save-dev"
+alias nu="npm uninstall"
+alias nup="npm update"
+alias nr="npm run"
+alias nrd="npm run dev"
+alias nrb="npm run build"
+alias nrt="npm run test"
+alias nrtw="npm run test:watch"
+alias nrtb="npm run test:build"
+alias naf="npm audit fix"
+alias naff="npm audit fix --force"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
