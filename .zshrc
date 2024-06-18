@@ -65,6 +65,11 @@ alias gc='git commit'
 alias gp='git push'
 alias gs='git status'
 alias gl='git log --oneline --decorate'
+alias gch='git checkout'
+alias grs='git remote set-url origin'
+alias gra='git remote add origin'
+alias gpl='git pull'
+alias gm='git merge'
 
 # Command shortcuts
 alias h='history'
