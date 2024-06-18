@@ -9,8 +9,8 @@ This repository contains scripts to automate the installation of Zsh and several
    Clone this repository to your local machine:
 
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/cargopip/dot-zsh
+   cd dot-zsh
    ```
 
 2. ### Run the Installation Script
@@ -60,8 +60,8 @@ We welcome contributions to improve and expand this project! To contribute, plea
 2. **Clone Your Fork**: Clone your forked repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/repo-name.git
-   cd repo-name
+   git clone https://github.com/cargopip/dot-zsh
+   cd dot-zsh
    ```
 
 3. **Create a Branch**: Create a new branch for your feature or bug fix.
