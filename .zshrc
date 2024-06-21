@@ -193,3 +193,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+# flutter
+export PATH="$PATH:~/Android/Sdk/cmdline-tools/latest/bin"
+export PATH="$PATH:~/Android/Sdk/platform-tools"
+export PATH="/usr/bin/flutter/bin:$PATH"
