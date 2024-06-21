@@ -171,7 +171,7 @@ alias naff="npm audit fix --force"
 
 # android studio
 alias studio="/opt/android-studio/bin/studio.sh"
-alias cmdline="$HOME/Android/Sdk/cmdline-tools/bin/sdkmanager"
+alias cmdline="$HOME/Android/Sdk/cmdline-tools/latest/bin/sdkmanager"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
