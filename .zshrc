@@ -169,6 +169,9 @@ alias nrtb="npm run test:build"
 alias naf="npm audit fix"
 alias naff="npm audit fix --force"
 
+# android studio
+alias studio="/opt/android-studio/bin/studio.sh"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
