@@ -169,6 +169,10 @@ alias nrtb="npm run test:build"
 alias naf="npm audit fix"
 alias naff="npm audit fix --force"
 
+# android studio
+alias studio="/opt/android-studio/bin/studio.sh"
+alias cmdline="$HOME/Android/Sdk/cmdline-tools/latest/bin/sdkmanager"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -189,3 +193,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+# flutter
+export PATH="$PATH:~/Android/Sdk/cmdline-tools/latest/bin"
+export PATH="$PATH:~/Android/Sdk/platform-tools"
+export PATH="/usr/bin/flutter/bin:$PATH"
+export CHROME_EXECUTABLE="/usr/bin/thorium-browser"
