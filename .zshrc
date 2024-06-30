@@ -70,6 +70,9 @@ alias grs='git remote set-url origin'
 alias gra='git remote add origin'
 alias gpl='git pull'
 alias gm='git merge'
+alias merge="git config pull.rebase false"
+alias rebase="git config pull.rebase true"
+
 
 # Command shortcuts
 alias h='history'
