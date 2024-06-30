@@ -183,6 +183,8 @@ alias ct="cargo test"
 alias cbr="cargo build --release"
 alias cbrt="cargo build --release --tests"
 alias cbrt="cargo build --release --tests"
+alias cw="cargo-watch -x"
+alias cws="cargo-watch -s"
 
 # flutter
 alias fr="flutter run"
