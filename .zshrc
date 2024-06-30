@@ -70,6 +70,9 @@ alias grs='git remote set-url origin'
 alias gra='git remote add origin'
 alias gpl='git pull'
 alias gm='git merge'
+alias merge="git config pull.rebase false"
+alias rebase="git config pull.rebase true"
+
 
 # Command shortcuts
 alias h='history'
@@ -172,6 +175,22 @@ alias naff="npm audit fix --force"
 # android studio
 alias studio="/opt/android-studio/bin/studio.sh"
 alias cmdline="$HOME/Android/Sdk/cmdline-tools/latest/bin/sdkmanager"
+
+# rust
+alias cr="cargo run"
+alias cb="cargo build"
+alias ct="cargo test"
+alias cbr="cargo build --release"
+alias cbrt="cargo build --release --tests"
+alias cbrt="cargo build --release --tests"
+
+# flutter
+alias fr="flutter run"
+alias fb="flutter build"
+alias ft="flutter test"
+alias fbr="flutter build --release"
+alias fbrt="flutter build --release --test"
+alias fbrt="flutter build --release --test"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
