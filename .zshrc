@@ -199,6 +199,9 @@ alias fbrt="flutter build --release --test"
 alias db="sudo docker build"
 alias dr="sudo docker run"
 alias di="sudo docker images"
+alias drmi="sudo docker rmi"
+alias drm="sudo docker rm"
+alias ps="sudo docker ps"
 alias docker="sudo docker"
 
 # fzf
