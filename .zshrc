@@ -180,9 +180,12 @@ alias cmdline="$HOME/Android/Sdk/cmdline-tools/latest/bin/sdkmanager"
 alias cr="cargo run"
 alias cb="cargo build"
 alias ct="cargo test"
+alias ca="cargo add"
 alias cbr="cargo build --release"
 alias cbrt="cargo build --release --tests"
 alias cbrt="cargo build --release --tests"
+alias cw="cargo watch -x"
+alias cws="cargo watch -s"
 
 # flutter
 alias fr="flutter run"
