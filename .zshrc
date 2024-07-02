@@ -196,9 +196,9 @@ alias fbrt="flutter build --release --test"
 alias fbrt="flutter build --release --test"
 
 # docker
-alias db="docker build"
-alias dr="docker run"
-alias di="docker images"
+alias db="sudo docker build"
+alias dr="sudo docker run"
+alias di="sudo docker images"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
