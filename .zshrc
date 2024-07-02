@@ -195,6 +195,11 @@ alias fbr="flutter build --release"
 alias fbrt="flutter build --release --test"
 alias fbrt="flutter build --release --test"
 
+# docker
+alias db="docker build"
+alias dr="docker run"
+alias di="docker images"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
