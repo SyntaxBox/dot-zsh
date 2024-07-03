@@ -202,6 +202,7 @@ alias di="sudo docker images"
 alias drmi="sudo docker rmi"
 alias drm="sudo docker rm"
 alias ps="sudo docker ps"
+alias dc="sudo docker compose"
 alias docker="sudo docker"
 
 # fzf
