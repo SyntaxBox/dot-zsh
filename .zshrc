@@ -227,10 +227,9 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 eval "$(zoxide init zsh)"
 
 # flutter
-export PATH="$PATH:~/Android/Sdk/cmdline-tools/latest/bin"
-export PATH="$PATH:~/Android/Sdk/platform-tools"
+export ANDROID_HOME="$HOME/Android/Sdk"
+export CHROME_EXECUTABLE="/usr/bin/thorium-browser"
 export PATH="/usr/bin/flutter/bin:$PATH"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:$ANDROID_HOME/emulator"
-export CHROME_EXECUTABLE="/usr/bin/thorium-browser"
-export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
