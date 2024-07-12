@@ -233,3 +233,4 @@ export PATH="/usr/bin/flutter/bin:$PATH"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
+export PATH=/usr/local/texlive/2023/bin/x86_64-linux:$PATH
