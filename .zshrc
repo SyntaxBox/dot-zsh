@@ -207,7 +207,7 @@ alias docker="sudo docker"
 
 # neovim
 alias vim="nvim"
-alias v="nvim"
+alias n="nvim"
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
