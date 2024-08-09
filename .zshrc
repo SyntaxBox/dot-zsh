@@ -205,6 +205,10 @@ alias ps="sudo docker ps"
 alias dc="sudo docker compose"
 alias docker="sudo docker"
 
+# neovim
+alias vim="nvim"
+alias v="nvim"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
