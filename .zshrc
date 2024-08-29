@@ -238,4 +238,5 @@ export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
 export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
+export PATH="/usr/local/bin/zen:$PATH"
 
