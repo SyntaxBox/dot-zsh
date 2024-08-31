@@ -39,7 +39,7 @@ _fzf_comprun() {
   esac
 }
 
-ZSH_THEME="random"
+ZSH_THEME="maran"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete zsh-history-substring-search)
 
@@ -239,4 +239,4 @@ export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
 export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
 export PATH="/usr/local/bin/zen:$PATH"
-
+export DOCKER_HOST="unix:///var/run/docker.sock"
