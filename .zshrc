@@ -39,7 +39,7 @@ _fzf_comprun() {
   esac
 }
 
-ZSH_THEME="random"
+ZSH_THEME="maran"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete zsh-history-substring-search)
 
@@ -195,6 +195,24 @@ alias fbr="flutter build --release"
 alias fbrt="flutter build --release --test"
 alias fbrt="flutter build --release --test"
 
+# docker
+alias db="sudo docker build"
+alias dr="sudo docker run"
+alias di="sudo docker images"
+alias drmi="sudo docker rmi"
+alias drm="sudo docker rm"
+alias ps="sudo docker ps"
+alias dc="sudo docker compose"
+alias docker="sudo docker"
+
+# neovim
+alias vim="nvim"
+alias n="nvim"
+
+# Xft.dpi aliases
+alias dpi100="echo Xft.dpi: 100 | xrdb -merge"
+alias dpi120="echo Xft.dpi: 120 | xrdb -merge"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -217,7 +235,12 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 eval "$(zoxide init zsh)"
 
 # flutter
-export PATH="$PATH:~/Android/Sdk/cmdline-tools/latest/bin"
-export PATH="$PATH:~/Android/Sdk/platform-tools"
-export PATH="/usr/bin/flutter/bin:$PATH"
+export ANDROID_HOME="$HOME/Android/Sdk"
 export CHROME_EXECUTABLE="/usr/bin/thorium-browser"
+export PATH="/usr/bin/flutter/bin:$PATH"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
+export PATH="$PATH:$ANDROID_HOME/emulator"
+export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
+export PATH="/usr/local/texlive/2024/bin/x86_64-linux:$PATH"
+export PATH="/usr/local/bin/zen:$PATH"
+export DOCKER_HOST="unix:///var/run/docker.sock"
