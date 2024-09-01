@@ -209,6 +209,10 @@ alias docker="sudo docker"
 alias vim="nvim"
 alias n="nvim"
 
+# Xft.dpi aliases
+alias dpi100="echo Xft.dpi: 100 | xrdb -merge"
+alias dpi120="echo Xft.dpi: 120 | xrdb -merge"
+
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
