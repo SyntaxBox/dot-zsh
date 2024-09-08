@@ -196,14 +196,13 @@ alias fbrt="flutter build --release --test"
 alias fbrt="flutter build --release --test"
 
 # docker
-alias db="sudo docker build"
-alias dr="sudo docker run"
-alias di="sudo docker images"
-alias drmi="sudo docker rmi"
-alias drm="sudo docker rm"
-alias ps="sudo docker ps"
-alias dc="sudo docker compose"
-alias docker="sudo docker"
+alias db="docker build"
+alias dr="docker run"
+alias di="docker images"
+alias drmi="docker rmi"
+alias drm="docker rm"
+alias ps="docker ps"
+alias dc="docker compose"
 
 # neovim
 alias vim="nvim"
