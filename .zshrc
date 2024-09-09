@@ -208,9 +208,13 @@ alias dc="docker compose"
 alias vim="nvim"
 alias n="nvim"
 
-# Xft.dpi aliases
+# xrdb aliases
 alias dpi100="echo Xft.dpi: 100 | xrdb -merge"
 alias dpi120="echo Xft.dpi: 120 | xrdb -merge"
+
+# xrandr
+alias 2screens="xrandr --output HDMI-1 --auto --primary --rate 74.97 --output eDP-1 --auto --left-of HDMI-1"
+
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
