@@ -215,6 +215,11 @@ alias dpi120="echo Xft.dpi: 120 | xrdb -merge"
 # xrandr
 alias 2screens="xrandr --output HDMI-1 --auto --primary --rate 74.97 --output eDP-1 --auto --left-of HDMI-1"
 
+# networking
+alias wifi="nmcli device wifi"
+alias wifis="nmcli device wifi list"
+alias wconnect="nmcli device wifi connect"
+
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
