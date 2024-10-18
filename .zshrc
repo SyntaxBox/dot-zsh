@@ -217,7 +217,7 @@ alias 2screens="xrandr --output HDMI-1 --auto --primary --rate 74.97 --output eD
 
 # networking
 alias wifi="nmcli device wifi"
-alias wifis="nmcli device wifi list"
+alias wlist="nmcli device wifi list"
 alias wconnect="nmcli device wifi connect"
 
 
