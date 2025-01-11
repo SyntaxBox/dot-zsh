@@ -196,22 +196,31 @@ alias fbrt="flutter build --release --test"
 alias fbrt="flutter build --release --test"
 
 # docker
-alias db="sudo docker build"
-alias dr="sudo docker run"
-alias di="sudo docker images"
-alias drmi="sudo docker rmi"
-alias drm="sudo docker rm"
-alias ps="sudo docker ps"
-alias dc="sudo docker compose"
-alias docker="sudo docker"
+alias db="docker build"
+alias dr="docker run"
+alias di="docker images"
+alias drmi="docker rmi"
+alias drm="docker rm"
+alias ps="docker ps"
+alias dc="docker compose"
 
 # neovim
 alias vim="nvim"
 alias n="nvim"
 
-# Xft.dpi aliases
+# xrdb aliases
 alias dpi100="echo Xft.dpi: 100 | xrdb -merge"
 alias dpi120="echo Xft.dpi: 120 | xrdb -merge"
+
+# xrandr
+alias 2screens="xrandr --output HDMI-1 --auto --primary --rate 74.97 --output eDP-1 --auto --left-of HDMI-1"
+
+# networking
+alias wifi="nmcli device wifi"
+alias wlist="nmcli device wifi list"
+alias wconnect="nmcli device wifi connect"
+alias wscan="nmcli device wifi rescan"
+
 
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
